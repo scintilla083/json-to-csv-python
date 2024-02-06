@@ -27,5 +27,5 @@ pipenv
 *.log
 *.swp
 *~
-.idea
+.idea/
 __pycache__/
