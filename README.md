@@ -22,7 +22,14 @@ python src/cli_convert.py some_json_.json output.csv
 ```
 
 Это создаст файл `output.csv` с данными, сконвертированными из `some_json_.json`.
+## Как использовать 2
+1. Запустите скрипт `src/tests_many_json.py`.
+2. Наполните папку tests файлами .json формата
 
+```bash
+python src/tests_many_json.py
+```
+Это создаст файлы в директории `output` в виде `filename.csv` с данными, сконвертированными из файлов директории `tests` 
 ## Примечание
 
 Убедитесь, что у вас установлен Python 3.x и все зависимости из `requirements.txt` установлены:
