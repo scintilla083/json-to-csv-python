@@ -7,9 +7,8 @@ convert:
     python cli_convert.py tests/some.json output/some.csv
 
 start:
-    docker build -t json-to-csv .
-    docker run -d -p 4000:80 --name python-container json-to-csv
+    docker build -t fastapi_app .
+    docker run -d -p 8000:8000 fastapi_app
 
 stop:
-    docker stop python-container
-    docker rm python-container
+    docker stop fastapi_app
