@@ -12,7 +12,8 @@ venv/
 .env/
 tests/
 output/
-
+converted/
+downloads/
 # Игнорирование файлов Python-specific
 pip-log.txt
 pipenv
