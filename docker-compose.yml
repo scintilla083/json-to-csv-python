@@ -1,10 +1,8 @@
-version: "3.8"
+version: '3'
+
 services:
-
-  json-to-csv:
-    container_name: json-to-csv
-    build: ./src
-
-    volumes:
-      - ./src/:/app
-
+  fastapi:
+    build:
+      context: .
+    ports:
+      - "8000:8000"

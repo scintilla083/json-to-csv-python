@@ -8,12 +8,12 @@ __pycache__/
 .Python
 
 # Игнорирование виртуального окружения
-venv/
-.env/
-tests/
-output/
-converted/
-downloads/
+venv/*
+.env/*
+tests/*
+output/*
+converted/*
+downloads/*
 
 # Игнорирование файлов Python-specific
 pip-log.txt
