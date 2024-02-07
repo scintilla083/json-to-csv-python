@@ -30,6 +30,11 @@ python src/cli_convert.py some_json_.json output.csv
 python src/tests_many_json.py
 ```
 Это создаст файлы в директории `output` в виде `filename.csv` с данными, сконвертированными из файлов директории `tests` 
+## Тест для api
+```cmd
+curl -X POST -F "file=@C:/Users/someuser/..../file.json" http://localhost:8000/uploadfile/
+```
+
 ## Примечание
 
 Убедитесь, что у вас установлен Python 3.x и все зависимости из `requirements.txt` установлены:
