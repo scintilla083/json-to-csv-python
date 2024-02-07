@@ -24,5 +24,5 @@ async def upload_file(file: UploadFile = File(...)):
 
 @app.get("/download-file/")
 async def download_file(filename: str):
-    file_path = f"./downloads/{filename}"
+    file_path = f"./converted/{filename}"
     return FileResponse(file_path, filename=filename)
