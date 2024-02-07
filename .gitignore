@@ -1,0 +1,33 @@
+# Игнорирование общих файлов и директорий
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+.Python
+
+# Игнорирование виртуального окружения
+venv/
+.env/
+tests/
+output/
+converted/
+downloads/
+# Игнорирование файлов Python-specific
+pip-log.txt
+
+pipenv
+
+# Игнорирование локальных настроек
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Игнорирование временных файлов и директорий
+*.log
+*.swp
+*~
+.idea/
+__pycache__/

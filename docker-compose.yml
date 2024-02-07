@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+
+  json-to-csv:
+    container_name: json-to-csv
+    build: ./src
+
+    volumes:
+      - ./src/:/app
+
