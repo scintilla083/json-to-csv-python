@@ -32,7 +32,7 @@ python src/tests_many_json.py
 Это создаст файлы в директории `output` в виде `filename.csv` с данными, сконвертированными из файлов директории `tests` 
 ## Тест для api
 ```cmd
-curl -X POST -F "file=@C:/Users/someuser/..../file.json" http://localhost:8000/uploadfile/
+curl -X POST -F "file=@C:/Users/someuser/..../file.json" http://localhost:8000/upload-file/
 ```
 
 ## Примечание
