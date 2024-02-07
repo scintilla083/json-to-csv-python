@@ -33,6 +33,8 @@ python src/tests_many_json.py
 ## Тест для api
 ```cmd
 curl -X POST -F "file=@C:/Users/someuser/..../file.json" http://localhost:8000/upload-file/
+
+ uvicorn api:app --reload
 ```
 
 ## Примечание
