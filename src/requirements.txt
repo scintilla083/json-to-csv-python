@@ -1,4 +1,0 @@
-pandas
-fastapi
-python-multipart
-uvicorn[standart]

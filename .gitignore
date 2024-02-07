@@ -16,7 +16,6 @@ converted/
 downloads/
 # Игнорирование файлов Python-specific
 pip-log.txt
-
 pipenv
 
 # Игнорирование локальных настроек
